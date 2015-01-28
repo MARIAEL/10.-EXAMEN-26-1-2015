@@ -2,32 +2,46 @@ IFCT0509 Administración de Servicios de Internet
 
 #1.- Diferencia entre IP, dominio y servidor, explicar lo que es cada uno.
 
-Las direcciones IP (IP es un acrónimo para Internet Protocol) son un número único e irrepetible con el cual se identifica una computadora conectada a una red que corre el protocolo IP. 
-Una dirección IP es un conjunto de cuatro numeros del 0 al 255 separados por puntos.
-Un dominio de Internet es una red de identificación asociada a un grupo de dispositivos o equipos conectados a la red Internet.
-El propósito principal de los nombres de dominio en Internet y del sistema de nombres de dominio (DNS), es traducir las direcciones IP de cada nodo activo en la red, a términos memorizables y fáciles de encontrar
-Las computadoras se conectan entre sí mediante sus respectivas direcciones IP. Sin embargo, a los seres humanos nos es más cómodo utilizar otra notación más fácil de recordar, como los nombres de dominio. 
-Un servidor es un equipo (computadora) que se encarga de dar algún tipo de servicio a otros PCs que se denominan clientes. Pueden prestar distintos servicios: creación de páginas Web, base de datos, servidores de ficheros, servidores de impresión, etc.
-Una vez explicado que es cada uno de los elementos que se nos pregunta, vemos claramente la diferencia entre ellos: Un servidor es una computadora que necesita una dirección de IP para que los demás PC de la red se puedan comunicar con él y al mismo tiempo tiene un dominio que lo identifica y lo singulariza respecto a los demás.
+Las direcciones **IP** (IP es un acrónimo para Internet Protocol) son un número único e irrepetible con el cual se identifica una computadora conectada a una red que corre el protocolo IP.   
+Una dirección IP es un conjunto de cuatro numeros del 0 al 255 separados por puntos.  
 
-#2.- Describir los siguientes términos, qué son y para qué sirven: HTML, TCP/IP, UDP
-HTML ( HyperText Markup Language), es un lenguaje de marcado diseñado para estructurar textos y presentarlos en forma de hipertexto, que es el formato estándar de las páginas web. Gracias a Internet y a los navegadores como Internet Explorer, Opera, Firefox, Netscape o Safari, el HTML se ha convertido en uno de los formatos más populares y fáciles de aprender que existen para la elaboración de documentos para web.
-En realidad HTML no es un lenguaje de programación sino que son sentencias  -etiquetas- que nos  indican qué operaciones se van a realizar con el texto o con los atributos que se estén manejando con ese sentencia -etiqueta-. Estas secuencias son muy necesarias para el diseño de una página web ya que cada una de ellas le indica a internet como ésta compuesta la estructura de cualquier Web.
+Un **dominio de Internet** es una red de identificación asociada a un grupo de dispositivos o equipos conectados a la red Internet.  
+El propósito principal de los nombres de dominio en Internet y del sistema de nombres de dominio (DNS), es traducir las direcciones IP de cada nodo activo en la red, a términos memorizables y fáciles de encontrar.  
+Las computadoras se conectan entre sí mediante sus respectivas direcciones IP. Sin embargo, a los seres humanos nos es más cómodo utilizar otra notación más fácil de recordar, como los nombres de dominio.  
 
-TCP/IP, es una denominación que permite identificar al grupo de protocolos de red que respaldan a Internet http://definicion.de/internet/ y que hacen posible la transferencia de datos entre redes de ordenadores. En concreto, puede decirse que TCP/IP hace referencia a los dos protocolos más trascendentes de este grupo: el conocido como Protocolo de Control de Transmisión (o TCP) y el llamado Protocolo de Internet (IP). 
-En este sentido, el primero de los protocolos citados lo que hace es proporcionar un transporte muy fiable de los datos dentro de lo que es el nivel de transporte de referencia OSI. Y mientras, el segundo, el protocolo IP se identifica y define especialmente por el hecho de que lo que hace, en el nivel de red, es ofrecernos la posibilidad de dirigir los citados a otras máquinas.
-Asimismo, hay que subrayar que dentro de lo que es TCP/IP existen varios niveles que es muy importante que sean tenidos en cuenta. En concreto son cuatro:
+Un **servidor** es un equipo (computadora) que se encarga de dar algún tipo de servicio a otros PCs que se denominan clientes. Pueden prestar distintos servicios: creación de páginas Web, base de datos, servidores de ficheros, servidores de impresión, etc.  
 
-Nivel de aplicación. Es el más alto dentro del protocolo que nos ocupa y en él se encuentran una serie de aplicaciones que tienen la capacidad de acceder a diversos servicios a los que se puede acceder vía Internet.
-Nivel de transporte. Es el encargado de ofrecer una comunicación entre extremos de programas de aplicación.
-Nivel de red. Se dedica a realizar una serie de acciones sobre la información que recibe del nivel anterior para luego acometer el envío al nivel que está por debajo de él.
-Nivel de enlace. Su misión más clara es transmitir la información que recibe al hardware.
+Una vez explicado que es cada uno de los elementos que se nos pregunta, vemos claramente la diferencia entre ellos:   Un servidor es una computadora que necesita una dirección de IP para que los demás PC de la red se puedan comunicar con él y al mismo tiempo tiene un dominio que lo identifica y lo singulariza respecto a los demás.  
 
+#2.- Describir los siguientes términos, qué son y para qué sirven: HTML, TCP/IP, UDP  
 
-UDP, User Datagram Protocol es un protocolo del nivel de transporte basado en el intercambio de datagramas (Encapsulado de capa 4 Modelo OSI). 
-Permite el envío de datagramas a través de la red sin que se haya establecido previamente una conexión, ya que el propio datagrama incorpora suficiente información de direccionamiento en su cabecera. 
-Tampoco tiene confirmación ni control de flujo, por lo que los paquetes pueden adelantarse unos a otros; y tampoco se sabe si ha llegado correctamente, ya que no hay confirmación de entrega o recepción. 
-Su uso principal es para protocolos como DHCP, BOOTP,DNS y demás protocolos en los que el intercambio de paquetes de la conexión/desconexión son mayores, o no son rentables con respecto a la información transmitida, así como para la transmisión de audio y vídeo en real, donde no es posible realizar retransmisiones por los estrictos requisitos de retardo que se tiene en estos casos.
+**HTML** ( HyperText Markup Language), es un lenguaje de marcado diseñado para estructurar textos y presentarlos en forma de hipertexto, que es el formato estándar de las páginas web.  
+Gracias a Internet y a los navegadores como Internet Explorer, Opera, Firefox, Netscape o Safari, el HTML se ha convertido en uno de los formatos más populares y fáciles de aprender que existen para la elaboración de documentos para web.  
+En realidad HTML no es un lenguaje de programación sino que son sentencias  -etiquetas- que nos  indican qué operaciones se van a realizar con el texto o con los atributos que se estén manejando con ese sentencia -etiqueta-. Estas secuencias son muy necesarias para el diseño de una página web ya que cada una de ellas le indica a internet como ésta compuesta la estructura de cualquier Web.  
+
+**TCP/IP**, es una denominación que permite identificar al grupo de protocolos de red que respaldan a Internet http://definicion.de/internet/ y que hacen posible la transferencia de datos entre redes de ordenadores.  
+En concreto, puede decirse que TCP/IP hace referencia a los dos protocolos más trascendentes de este grupo: el conocido como Protocolo de Control de Transmisión (o TCP) y el llamado Protocolo de Internet (IP).   
+En este sentido, el primero de los protocolos citados lo que hace es proporcionar un transporte muy fiable de los datos dentro de lo que es el nivel de transporte de referencia OSI.  
+Y mientras, el segundo, el protocolo IP, se identifica y define especialmente por el hecho de que lo que hace, en el nivel de red, es ofrecernos la posibilidad de dirigir los citados a otras máquinas.  
+
+Asimismo, hay que subrayar que dentro de lo que es TCP/IP existen varios niveles que es muy importante que sean tenidos en cuenta. En concreto son cuatro:  
+
+Nivel de aplicación.  
+Es el más alto dentro del protocolo que nos ocupa y en él se encuentran una serie de aplicaciones que tienen la capacidad de acceder a diversos servicios a los que se puede acceder vía Internet.  
+
+Nivel de transporte.  
+Es el encargado de ofrecer una comunicación entre extremos de programas de aplicación.  
+
+Nivel de red.  
+Se dedica a realizar una serie de acciones sobre la información que recibe del nivel anterior para luego acometer el envío al nivel que está por debajo de él.  
+
+Nivel de enlace.  
+Su misión más clara es transmitir la información que recibe al hardware.  
+
+**UDP**, User Datagram Protocol, es un protocolo del nivel de transporte basado en el intercambio de datagramas (Encapsulado de capa 4 Modelo OSI).   
+Permite el envío de datagramas a través de la red sin que se haya establecido previamente una conexión, ya que el propio datagrama incorpora suficiente información de direccionamiento en su cabecera.   
+Tampoco tiene confirmación ni control de flujo, por lo que los paquetes pueden adelantarse unos a otros; y tampoco se sabe si ha llegado correctamente, ya que no hay confirmación de entrega o recepción.   
+Su uso principal es para protocolos como DHCP, BOOTP,DNS y demás protocolos en los que el intercambio de paquetes de la conexión/desconexión son mayores, o no son rentables con respecto a la información transmitida, así como para la transmisión de audio y vídeo en real, donde no es posible realizar retransmisiones por los estrictos requisitos de retardo que se tiene en estos casos.  
 
 #3.- ¿Qué son Javascript, PHP?
 Ambos son lenguajes de programación.
@@ -99,8 +113,8 @@ El FQDN consta de dos partes: el nombre de host y el nombre de dominio.
 Un ejemplo es miequipo.midominio.com.
 La longitud máxima permitida para un FQDN es 255 caracteres (bytes), con una restricción adicional a 63 bytes por etiqueta dentro de un nombre de dominio.
 Las etiquetas FQDN se restringen a un juego de caracteres limitado: letras A-Z de ASCII, los dígitos, y el carácter «-» , y no distinguen mayúsculas de minúsculas. 
-11.- Diferencia entre los servicios ssh y ftp
-#SSH (o Secure SHell) es un protocolo que facilita las comunicaciones seguras entre dos sistemas usando una arquitectura cliente/servidor y que permite a los usuarios conectarse a un host remotamente. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH encripta la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
+#11.- Diferencia entre los servicios ssh y ftp
+SSH (o Secure SHell) es un protocolo que facilita las comunicaciones seguras entre dos sistemas usando una arquitectura cliente/servidor y que permite a los usuarios conectarse a un host remotamente. A diferencia de otros protocolos de comunicación remota tales como FTP o Telnet, SSH encripta la sesión de conexión, haciendo imposible que alguien pueda obtener contraseñas no encriptadas.
 SSH está diseñado para reemplazar los métodos más viejos y menos seguros para registrarse remotamente en otro sistema a través de la shell de comando, tales como telnet o rsh. Un programa relacionado, el scp, reemplaza otros programas diseñados para copiar archivos entre hosts como rcp. Ya que estas aplicaciones antiguas no encriptan contraseñas entre el cliente y el servidor, hay que evitar usarlas mientras sea posible. El uso de métodos seguros para registrarse remotamente a otros sistemas reduce los riesgos de seguridad tanto para el sistema cliente como para el sistema remoto.
 El acrónimo de FTP es protocolo de transferencia de ficheros (File Transfer Protocol) y es un software cliente/servidor que permite a usuarios transferir ficheros entre ordenadores en una red TCP/IP.
 FTP tiene sus orígenes en 1971, y aunque ha evolucionado con el paso de los años, es uno de los protocolos más antiguos que todavía están en uso. Hoy en día se usa principalmente en redes corporativas y la red más grande que existe, Internet.
