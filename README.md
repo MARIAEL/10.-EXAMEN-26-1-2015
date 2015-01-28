@@ -1,6 +1,6 @@
-#IFCT0509 Administración de Servicios de Internet
+IFCT0509 Administración de Servicios de Internet
 
-**1.- Diferencia entre IP, dominio y servidor, explicar lo que es cada uno.**  
+#1.- Diferencia entre IP, dominio y servidor, explicar lo que es cada uno.
 
 Las direcciones IP (IP es un acrónimo para Internet Protocol) son un número único e irrepetible con el cual se identifica una computadora conectada a una red que corre el protocolo IP. 
 Una dirección IP es un conjunto de cuatro numeros del 0 al 255 separados por puntos.
